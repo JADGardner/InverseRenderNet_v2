@@ -27,7 +27,7 @@ def main():
     parser = argparse.ArgumentParser(description="InverseRenderNet PyTorch Demo")
     parser.add_argument("--image", type=str, default="../demo_im.jpg", help="Input image")
     parser.add_argument("--mask", type=str, default="../demo_mask.jpg", help="Mask image")
-    parser.add_argument("--weights", type=str, default="weights.pth", help="Model weights")
+    parser.add_argument("--weights", type=str, default="model_ckpt.pth", help="Model weights")
     parser.add_argument("--output", type=str, default="output", help="Output directory")
     args = parser.parse_args()
     

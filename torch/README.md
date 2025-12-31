@@ -18,9 +18,17 @@ pip install -r requirements.txt
 
 Download the pre-converted PyTorch weights from Google Drive:
 
-**[weights.pth](https://drive.google.com/file/d/1_MardKJ3kZL89ycf0c4pPWWEOmoJXzOa/view?usp=sharing)**
+**[model_ckpts.zip](https://drive.google.com/file/d/1t3mnWAbIzI4Zq9NfJfDWg7bK-RVHFIvW/view?usp=sharing)**
 
-Place `weights.pth` in this directory.
+Unzip in this directory:
+```bash
+unzip model_ckpts.zip
+```
+
+This extracts:
+- `model_ckpt.pth` - Default model
+- `diode_model_ckpt.pth` - DIODE fine-tuned
+- `iiw_model_ckpt.pth` - IIW fine-tuned
 
 ## Usage
 
